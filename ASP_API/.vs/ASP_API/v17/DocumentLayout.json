@@ -1,14 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\Repos\\ASP-API-TEMPLATE\\ASP_API\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrador\\Documents\\raphaRepos\\ASP-API-TEMPLATE\\ASP_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{585DAA8B-D7F7-4A05-B5CC-A95F10EF0C1F}|Backend\\Backend.csproj|c:\\users\\administrator\\documents\\repos\\asp-api-template\\asp_api\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{585DAA8B-D7F7-4A05-B5CC-A95F10EF0C1F}|Backend\\Backend.csproj|c:\\users\\administrador\\documents\\rapharepos\\asp-api-template\\asp_api\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{585DAA8B-D7F7-4A05-B5CC-A95F10EF0C1F}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{585DAA8B-D7F7-4A05-B5CC-A95F10EF0C1F}|Backend\\Backend.csproj|c:\\users\\administrator\\documents\\repos\\asp-api-template\\asp_api\\backend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{585DAA8B-D7F7-4A05-B5CC-A95F10EF0C1F}|Backend\\Backend.csproj|solutionrelative:backend\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,6 +16,10 @@
           "DockedWidth": 200,
           "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:764764211:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -38,26 +38,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Repos\\ASP-API-TEMPLATE\\ASP_API\\Backend\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "Backend\\WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\Repos\\ASP-API-TEMPLATE\\ASP_API\\Backend\\WeatherForecast.cs",
-              "RelativeToolTip": "Backend\\WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T00:13:42.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Repos\\ASP-API-TEMPLATE\\ASP_API\\Backend\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Documents\\raphaRepos\\ASP-API-TEMPLATE\\ASP_API\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Documents\\Repos\\ASP-API-TEMPLATE\\ASP_API\\Backend\\Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Documents\\raphaRepos\\ASP-API-TEMPLATE\\ASP_API\\Backend\\Program.cs",
               "RelativeToolTip": "Backend\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-08T00:13:19.604Z",
               "EditorCaption": ""

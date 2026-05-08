@@ -156,6 +156,3 @@ curl -X DELETE http://localhost:5115/api/agencia/1
 ## Contribuição
 Para contribuir, faça fork do repositório, crie uma branch para suas mudanças e submeta um pull request.
 
-## Licença
-Este projeto é distribuído sob a licença MIT.</content>
-<parameter name="filePath">c:\Users\Administrador\Documents\raphaRepos\ASP-API-TEMPLATE\PROJECT_DOCUMENTATION.md

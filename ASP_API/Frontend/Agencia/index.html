@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciamento de Agências</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Gerenciamento de Agências</h1>
+
+        <!-- Formulário para Adicionar/Editar Agência -->
+        <div class="card mb-4">
+            <div class="card-header">
+                <h5 id="form-title">Adicionar Nova Agência</h5>
+            </div>
+            <div class="card-body">
+                <form id="agencia-form">
+                    <input type="hidden" id="agencia-id">
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="nome" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="cidade" class="form-label">Cidade</label>
+                        <input type="text" class="form-control" id="cidade" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="estadoUF" class="form-label">Estado (UF)</label>
+                        <input type="text" class="form-control" id="estadoUF" maxlength="2" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="submit-btn">Adicionar</button>
+                    <button type="button" class="btn btn-secondary" id="cancel-btn" style="display: none;">Cancelar</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Tabela de Agências -->
+        <div class="card">
+            <div class="card-header">
+                <h5>Lista de Agências</h5>
+            </div>
+            <div class="card-body">
+                <table class="table table-striped" id="agencias-table">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nome</th>
+                            <th>Cidade</th>
+                            <th>Estado</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Dados serão inseridos aqui via JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>

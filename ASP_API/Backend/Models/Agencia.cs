@@ -6,6 +6,8 @@ namespace Backend.Models
     /// <summary>
     /// Representa uma agência financeira.
     /// </summary>
+    /// 
+    [Table("Agencia")]
     public class Agencia
     {
         /// <summary>

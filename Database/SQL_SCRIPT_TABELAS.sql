@@ -5,7 +5,7 @@ IF DB_ID('dbFinanceiro') IS NULL
 
 IF OBJECT_ID('dbo.AGENCIA', 'U') IS NULL
     BEGIN
-    CREATE TABLE dbo.AGENCIA (
+    CREATE TABLE dbo.AGENCIAS (
         Codigo INT IDENTITY(1,1) PRIMARY KEY,
         Nome VARCHAR(100),
         Cidade VARCHAR(100),
